@@ -14,14 +14,17 @@ public:
         if(head==nullptr || head->next==nullptr) return head;
         ListNode* prev=nullptr;
         ListNode* temp=head;
-        ListNode* front=head->next;
+        ListNode* front;
         while(temp)
         {
+            front=temp->next;
             temp->next=prev;
             prev=temp;
             temp=front;
             if(front!=nullptr)
-           { front=temp->next;}
+           { 
+            front=temp->next;
+           }
 
         }
         return prev;
