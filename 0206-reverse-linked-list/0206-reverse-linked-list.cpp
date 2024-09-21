@@ -21,10 +21,6 @@ public:
             temp->next=prev;
             prev=temp;
             temp=front;
-            if(front!=nullptr)
-           { 
-            front=temp->next;
-           }
 
         }
         return prev;
