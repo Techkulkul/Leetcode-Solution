@@ -14,8 +14,7 @@ public:
         while(temp)
         {
             if(map.find(temp)!=map.end()) return true;
-            if(temp->next==nullptr) return false;
-            if(map.find(temp)==map.end()) map.insert(temp);
+            map.insert(temp);
             temp=temp->next;
         }
         return false;
