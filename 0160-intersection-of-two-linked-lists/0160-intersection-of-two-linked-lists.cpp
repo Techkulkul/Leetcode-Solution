@@ -9,7 +9,7 @@
 class Solution {
 public:
     ListNode* collisionPoint(ListNode* t1,ListNode* t2,int d)
-    {
+    {                                              //Better solution
         while(d)
         {
             d--;
