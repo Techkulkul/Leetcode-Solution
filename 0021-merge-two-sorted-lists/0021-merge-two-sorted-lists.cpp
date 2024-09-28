@@ -30,21 +30,11 @@ public:
         }
         if(list1)
         {
-            while(list1!=NULL)
-            {
-                current->next=list1;
-                current=list1;
-                list1=list1->next;
-            }
+           current->next=list1;
         }
         if(list2)
         {
-            while(list2!=NULL)
-            {
-                current->next=list2;
-                current=list2;
-                list2=list2->next;
-            }
+            current->next=list2;
         }
         return dummyNode->next;
         
