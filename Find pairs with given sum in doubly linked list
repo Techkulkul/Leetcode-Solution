@@ -20,7 +20,7 @@ vector<pair<int, int>> findPairsWithGivenSum(Node *head, int target)
     }
 
 
-///Better solution
+///Brute solution
 vector<pair<int, int>> findPairsWithGivenSum(Node *head, int target)
     {
        Node* temp1=head;
