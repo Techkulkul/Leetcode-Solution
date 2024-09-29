@@ -1,0 +1,20 @@
+///Better solution
+vector<pair<int, int>> findPairsWithGivenSum(Node *head, int target) 
+    {
+        Node* temp=head;
+        unordered_map<int,int>mp;
+        int diff;
+        vector<pair<int,int>>v;
+        while(temp){
+            diff=target-temp->data;
+            if(mp.find(diff)!=mp.end())
+            {
+                v.push_back({diff,temp->data});
+            }
+            else mp[temp->data]++;
+            temp=temp->next;
+            
+        }
+        reverse(v.begin(),v.end());
+        return v;
+    }
