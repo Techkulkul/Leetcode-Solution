@@ -16,24 +16,46 @@ public:
 
 class Solution {
 public:
-    Node* copyRandomList(Node* head) {
-        Node* temp=head;                  ////Brute approach
-        unordered_map<Node*,Node*>mpp;
+    void insertCopyInBetween(Node* head)
+    {
+        Node* temp=head;
         while(temp!=NULL)
         {
             Node* copyNode=new Node(temp->val);
-            mpp[temp]=copyNode;
-            temp=temp->next;
+            copyNode->next=temp->next;
+            temp->next=copyNode;
+            temp=temp->next->next;
         }
-        temp=head;
+    }
+    void connectRandomPointer(Node* head)
+    {
+        Node* temp=head;
         while(temp!=NULL)
         {
-           Node* copyNode=mpp[temp];
-            copyNode->next=mpp[temp->next];
-            copyNode->random=mpp[temp->random];
+            Node* copyNode=temp->next;
+            if(temp->random) copyNode->random=temp->random->next;
+            else copyNode->random=NULL;
+            temp=temp->next->next;
+        }
+    }
+    Node* getDeepCopy(Node* head)
+    {
+        Node* dummyNode=new Node(-1);
+        Node* current=dummyNode;
+        Node* temp=head;
+        while(temp!=NULL)
+        {
+            current->next=temp->next;
+            current=current->next;
+            temp->next=temp->next->next;
             temp=temp->next;
         }
-        return mpp[head];
+        return dummyNode->next;
+    }
+    Node* copyRandomList(Node* head) {
+        insertCopyInBetween(head);       //optimal solution TC=O(3n) SC=O(1)+O(n)this for returning answer
+        connectRandomPointer(head);
+        return getDeepCopy(head);
         
     }
 };
