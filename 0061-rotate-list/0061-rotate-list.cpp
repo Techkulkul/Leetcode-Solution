@@ -10,39 +10,30 @@
  */
 class Solution {
 public:
-    int lengthLL(ListNode* head)
+    ListNode* findKthNode(ListNode* head,int k)
     {
-        int count=0;
-        while(head!=NULL)
-        {
-            count++;
-            head=head->next;
-        }
-        return count;
-
-    }
-    ListNode* rotateRight(ListNode* head, int k) {
-        if(head==NULL) return head;
-        int n=lengthLL(head);
-        k=k%n;
-        if(k==0) return head;
-        ListNode* fast=head;
-        ListNode* slow=head;
-        while(fast!=nullptr)
+        while(head)
         {
             k--;
-            fast=fast->next;
             if(k==0) break;
+            head=head->next;
         }
-        while(fast->next!=nullptr)
-        {
-            fast=fast->next;
-            slow=slow->next;
-        }
-        fast->next=head;
-        head=slow->next;
-        slow->next=NULL;
         return head;
-        
+    }
+    ListNode* rotateRight(ListNode* head, int k) {
+        if(head==NULL || k==0) return head;         // sir solution TC=O(2n) in worst case  SC=O(1);
+        ListNode* tail=head;
+        int n=1;
+        while(tail->next!=NULL)
+        {
+            n++;
+            tail=tail->next;
+        }
+        k=k%n;
+        ListNode* kThNode=findKthNode(head,n-k);
+        tail->next=head;
+        head=kThNode->next;
+        kThNode->next=NULL;
+        return head;
     }
 };
