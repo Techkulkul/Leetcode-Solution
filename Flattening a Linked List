@@ -1,0 +1,65 @@
+// Brute force   TC=O(2*N*M)+O(xlogx) where x=M*N; SC=O(2*N*M)
+Node* convert(vector<int>v). 
+    {
+        if(v.size()==0) return nullptr; 
+        Node* head=new Node(v[0]);
+        Node* temp=head;
+        for(int i=1;i<v.size();i++)
+        {
+            Node* newNode=new Node(v[i]);
+            temp->bottom=newNode;
+            temp=newNode;
+        }
+        return head;
+        
+    }
+    Node *flatten(Node *root) {
+        // Your code here.              
+        Node* temp=root;
+        vector<int>v;   
+        while(temp!=NULL)
+        {
+            Node* t1=temp;
+            while(t1!=NULL)
+            {
+                v.push_back(t1->data);
+                t1=t1->bottom;
+            }
+            temp=temp->next;
+        }
+        sort(v.begin(),v.end());
+        return convert(v);
+    }
+
+// optimal solution using recursion    TC=O((2*M)*N)  SC=O(N) this memory is of stack recursion 
+
+Node* merge(Node* list1,Node* list2)
+    {
+        Node* dummyNode=new Node(-1);
+        Node* current=dummyNode;
+        while(list1!=NULL && list2!=NULL)
+        {
+            if(list1->data<list2->data)
+            {
+                current->bottom=list1;
+                current=list1;
+                list1=list1->bottom;
+            }
+            else 
+            {
+                current->bottom=list2;
+                current=list2;
+                list2=list2->bottom;
+            }
+            current->next=NULL;
+        }
+        if(list1) current->bottom=list1;
+        if(list2) current->bottom=list2;
+        return dummyNode->bottom;
+    }
+    Node *flatten(Node *root) {
+        // Your code here.              
+        if(root==NULL || root->next==NULL) return root;
+        Node* mergeHead=flatten(root->next);
+        return merge(root,mergeHead);
+    }
