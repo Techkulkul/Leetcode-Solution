@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0160-intersection-of-two-linked-lists) |
+| [1256-rank-transform-of-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 ## Stack
 |  |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0148-sort-list) |
+| [1256-rank-transform-of-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
 ## Merge Sort
 |  |
 | ------- |
@@ -71,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1256-rank-transform-of-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 ## Counting
 |  |
