@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0061-rotate-list) |
+| [0125-valid-palindrome](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0148-sort-list) |
@@ -79,4 +80,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
