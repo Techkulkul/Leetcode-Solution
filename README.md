@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0025-reverse-nodes-in-k-group) |
 | [0206-reverse-linked-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0234-palindrome-linked-list) |
+| [1013-fibonacci-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1013-fibonacci-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0002-add-two-numbers) |
+| [1013-fibonacci-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1013-fibonacci-number) |
 ## Array
 |  |
 | ------- |
@@ -86,4 +88,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0125-valid-palindrome) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
