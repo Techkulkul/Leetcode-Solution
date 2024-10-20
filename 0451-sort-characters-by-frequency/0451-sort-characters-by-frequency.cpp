@@ -14,9 +14,9 @@ public:
         string ans;
         while(!pq.empty())
         {
-            pair<int,char>p=pq.top();
-            char c=p.second;
-            int no=p.first;
+            
+            char c=pq.top().second;
+            int no=pq.top().first;
             while(no)
             {
                 ans+=c;
