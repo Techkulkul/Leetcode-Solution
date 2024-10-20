@@ -1,11 +1,15 @@
 class Solution {
 public:
-    int myAtoi(string s) {
-        if(s.length()==0) return 0;
+    void trim(string &s)
+    {
         while(s[0]==' ')
         {
             s.erase(s.begin());
         }
+    }
+    int myAtoi(string s) {
+        if(s.length()==0) return 0;
+        trim(s);
         int sign=s[0]=='-'?-1:1;
         if(s[0]=='+' || s[0]=='-')
         {
