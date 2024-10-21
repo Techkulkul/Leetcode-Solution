@@ -7,15 +7,10 @@ public:
         else return x*pow(x,n-1);
     }
     double myPow(double x, int n) {
-        long int n1;
-        if(n<0) n1=(long)n*-1;
-        else n1=n;
+        long int n1=n;
+        if(n1<0) n1=n1*-1;
         double ans= pow1(x,n1);
-        if(n<0) return 1.0/ans;
-        return ans;
-
-
-
-        
+        if(n<0) return (double)1/ans;
+        return ans;    
     }
 };
