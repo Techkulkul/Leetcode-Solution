@@ -18,8 +18,7 @@ public:
                 nn=nn/2;
             }
         }
-        if(n%2==1) return (5*ans)%cons;
-        return ans;
+        return ans*(n%2==1?5:1)%cons;
 
         
     }
