@@ -8,7 +8,7 @@ public:
             return;
 
         }
-        if(total<0) return;
+        // if(total<0) return;
         if(i==arr.size())
         {
             return;
