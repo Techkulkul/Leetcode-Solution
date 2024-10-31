@@ -13,11 +13,15 @@ public:
         {
             return;
         }
-        temp.push_back(arr[i]);
-        total-=arr[i];
-        subsequence(i,total,temp,ans,arr);
-        temp.pop_back();
-        total+=arr[i];
+        if(arr[i]<=total)
+        {
+            temp.push_back(arr[i]);
+            // total-=arr[i];
+            subsequence(i,total-arr[i],temp,ans,arr);
+            temp.pop_back();
+        }
+       
+        // total+=arr[i];
         subsequence(i+1,total,temp,ans,arr);
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
