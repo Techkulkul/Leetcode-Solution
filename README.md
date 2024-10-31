@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0078-subsets) |
 | [1256-rank-transform-of-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
