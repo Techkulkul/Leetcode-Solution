@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0908-middle-of-the-linked-list) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0050-powx-n) |
 | [1013-fibonacci-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1013-fibonacci-number) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2032-largest-odd-number-in-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2050-count-good-numbers) |
 ## Array
