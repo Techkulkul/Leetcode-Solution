@@ -1,34 +1,27 @@
 class Solution {
 public:
-    void subsequence(int i,int total,vector<int>&temp,vector<vector<int>>&ans,vector<int>arr)
+    void combination(int i,int target,vector<int>&array,vector<int>&temp,vector<vector<int>>&ans)
     {
-        if(total==0)
+        if(target==0)
         {
             ans.push_back(temp);
             return;
-
         }
-        // if(total<0) return;
-        if(i==arr.size())
+        else if(i==array.size()) return;
+        if(array[i]<=target)
         {
-            return;
-        }
-        if(arr[i]<=total)
-        {
-            temp.push_back(arr[i]);
-            // total-=arr[i];
-            subsequence(i,total-arr[i],temp,ans,arr);
+            temp.push_back(array[i]);
+            combination(i,target-array[i],array,temp,ans);
             temp.pop_back();
         }
-       
-        // total+=arr[i];
-        subsequence(i+1,total,temp,ans,arr);
+        combination(i+1,target,array,temp,ans);
+        
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        vector<vector<int>>ans;
+        vector<vector<int>> ans;
         vector<int>temp;
-        int total;
-        subsequence(0,target,temp,ans,candidates);
+        combination(0,target,candidates,temp,ans);
         return ans;
+        
     }
 };
