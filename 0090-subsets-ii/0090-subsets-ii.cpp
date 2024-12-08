@@ -2,11 +2,11 @@ class Solution {
 public:
     void findCombination(int ind,vector<int>&nums,vector<int>&temp, vector<vector<int>>&ans)
     {
-        // if(ind==nums.size())
-        // {
-        //     st.insert(temp);
-        //     return;
-        // }
+        if(ind==nums.size())
+        {
+            // st.insert(temp);
+            return;
+        }
         for(int i=ind;i<nums.size();i++)
         {
             if(i>ind && nums[i]==nums[i-1]) continue;
