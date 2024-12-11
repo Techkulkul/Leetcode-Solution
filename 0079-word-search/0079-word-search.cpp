@@ -7,12 +7,12 @@ public:
             ans=true;
             return;
         }
-        if(row>=0 && row<board.size() && col>=0 && col<board[0].size() && word[ind]==board[row][col] && visited[row][col]==0)   //(0,0)
-        {
-            visited[row][col]=1;
-            findExist(ind+1,row,col,board,word,ans,visited);
-            visited[row][col]=0;
-        }
+        // if(row>=0 && row<board.size() && col>=0 && col<board[0].size() && word[ind]==board[row][col] && visited[row][col]==0)   //(0,0)
+        // {
+        //     visited[row][col]=1;
+        //     findExist(ind+1,row,col,board,word,ans,visited);
+        //     visited[row][col]=0;
+        // }
         if(row>=0 && row<board.size() && col+1>=0 && col+1<board[0].size() && word[ind]==board[row][col+1]&& visited[row][col+1]==0) //right
         {
             visited[row][col+1]=1;
@@ -60,8 +60,10 @@ public:
                 {
                     row=i;
                     col=j;
-                    findExist(0,row,col,board,word,ans,visited);
+                    visited[row][col]=1;
+                    findExist(1,row,col,board,word,ans,visited);
                     if(ans==true) return ans;
+                    visited[row][col]=0;
                 }
             }
         }
