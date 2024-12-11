@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0090-subsets-ii) |
 | [1256-rank-transform-of-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0008-string-to-integer-atoi) |
 | [0014-longest-common-prefix](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0014-longest-common-prefix) |
+| [0079-word-search](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0151-reverse-words-in-a-string) |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0131-palindrome-partitioning) |
 ## Bit Manipulation
@@ -166,4 +169,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0090-subsets-ii) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
