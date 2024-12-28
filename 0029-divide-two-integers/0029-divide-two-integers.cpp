@@ -9,7 +9,7 @@ public:
         long d=divisor;
         n=abs(n);
         d=abs(d);
-        int ans=0;
+        long ans=0;
         while(n>=d)
         {
             int cnt=0;
