@@ -9,7 +9,7 @@ public:
             int bit=1;
             for(int j=0;j<n;j++)
             {
-                if(i & bit<<j) temp.push_back(nums[n-1-j]);
+                if(i & bit<<j) temp.push_back(nums[j]);
             }
             ans.push_back(temp);
         }
