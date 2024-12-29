@@ -1,18 +1,17 @@
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
-        int n=nums.size();
         vector<vector<int>>ans;
-        for(int i=0;i<pow(2,n);i++)
+        for(int i=0;i<(1<<nums.size());i++)
         {
             vector<int>temp;
-            int bit=1;
-            for(int j=0;j<n;j++)
+            for(int j=0;j<nums.size();j++)
             {
-                if(i & bit<<j) temp.push_back(nums[j]);
+                if(i & (1<<j)) temp.push_back(nums[j]);
             }
             ans.push_back(temp);
         }
         return ans;
+        
     }
 };
