@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0451-sort-characters-by-frequency) |
 | [0812-rotate-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0812-rotate-string) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2032-largest-odd-number-in-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2032-largest-odd-number-in-string) |
 ## Dynamic Programming
 |  |
@@ -197,4 +198,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0079-word-search) |
+## Prefix Sum
+|  |
+| ------- |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1537-maximum-score-after-splitting-a-string) |
 <!---LeetCode Topics End-->
