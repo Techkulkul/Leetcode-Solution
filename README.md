@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0455-assign-cookies) |
 | [1256-rank-transform-of-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [2358-number-of-ways-to-split-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2358-number-of-ways-to-split-array) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Counting
 |  |
@@ -202,4 +203,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [2358-number-of-ways-to-split-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2358-number-of-ways-to-split-array) |
 <!---LeetCode Topics End-->
