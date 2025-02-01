@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0234-palindrome-linked-list) |
 ## Divide and Conquer
 |  |
@@ -206,4 +207,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2358-number-of-ways-to-split-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2358-number-of-ways-to-split-array) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
