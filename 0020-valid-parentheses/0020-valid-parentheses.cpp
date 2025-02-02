@@ -19,7 +19,7 @@ public:
                 else st.push(mpp[s[i]]);
             }
         }
-        return st.empty()?true:false;
+        return st.empty();
 
         
     }
