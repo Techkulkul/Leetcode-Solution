@@ -1,29 +1,44 @@
-class MinStack {           //brute TC=O(1) SC=O(2n)
+class MinStack {     //Optimise solution  TC=O(1) SC=O(n)
 public:
-    stack<pair<int,int>>st;
+    stack<long long>st;
+   long long minVal=INT_MAX;
     MinStack() {
         
     }
     
     void push(int val) {
-        if(st.empty()) st.push({val,val});
+        long long value=val;
+        if(st.empty()) {
+            st.push(value);
+            minVal=value;
+        }
         else{
-            st.push({val,min(val,st.top().second)});
+            if(value>=minVal) st.push(value);
+            else{
+                st.push(2*value-minVal);
+                minVal=value;
+            }
+
         }
     }
     
     void pop() {
-        return st.pop();
+        long long topElement=st.top();
+        st.pop();
+        if(topElement<minVal) minVal=2*minVal-topElement; 
+        // if(st.empty()) minVal=INT_MAX;
     }
     
     int top() {
         if(st.empty()) return -1;
-        else return st.top().first;
+        else {
+            if(st.top()<minVal) return minVal;
+            else return st.top();
+        }
     }
     
     int getMin() {
-        if(st.empty()) return -1;
-        else return st.top().second;
+        return minVal;
     }
 };
 
