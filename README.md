@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0234-palindrome-linked-list) |
 | [0455-assign-cookies](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0455-assign-cookies) |
 | [0908-middle-of-the-linked-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0908-middle-of-the-linked-list) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0002-add-two-numbers) |
 | [0029-divide-two-integers](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0050-powx-n) |
+| [0189-rotate-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0326-power-of-three) |
 | [1013-fibonacci-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1013-fibonacci-number) |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0136-single-number) |
+| [0189-rotate-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0189-rotate-array) |
 | [0260-single-number-iii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0260-single-number-iii) |
 | [0455-assign-cookies](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0496-next-greater-element-i) |
