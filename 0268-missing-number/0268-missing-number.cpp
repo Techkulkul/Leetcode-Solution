@@ -1,11 +1,14 @@
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        //optimal solution
+        //more optimised solution
         int n=nums.size();
-        long long sum=(n*(n+1))/2;
-        long long arraySum=accumulate(nums.begin(),nums.end(),0);
-        return (int)sum-arraySum;
-
+        int arrayXor=0,originalXor=0;
+        for(int i=0;i<n;i++){
+            arrayXor^=nums[i];
+            originalXor^=i; 
+        }
+        originalXor^=n;
+        return arrayXor^originalXor;
     }
 };
