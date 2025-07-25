@@ -1,15 +1,12 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        //better 
+        //optimal solution
         int n=nums.size();
-        map<int,int>hash;
+        int xor1=0;
         for(int i=0;i<n;i++){
-            hash[nums[i]]++;
+            xor1^=nums[i];
         }
-        for(auto it:hash){
-            if(it.second==1) return it.first;
-        }
-        return -1;
+        return xor1;
     }
 };
