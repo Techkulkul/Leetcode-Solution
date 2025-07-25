@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0160-intersection-of-two-linked-lists) |
 | [0205-isomorphic-strings](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0496-next-greater-element-i) |
 | [1256-rank-transform-of-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0015-3sum) |
 | [0148-sort-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0148-sort-list) |
 | [0242-valid-anagram](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0455-assign-cookies) |
 | [1256-rank-transform-of-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
@@ -115,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0326-power-of-three) |
 | [1013-fibonacci-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1013-fibonacci-number) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -138,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0189-rotate-array) |
 | [0260-single-number-iii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0260-single-number-iii) |
+| [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0496-next-greater-element-i) |
@@ -225,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0260-single-number-iii) |
+| [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Matrix
 |  |
@@ -258,4 +263,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0735-asteroid-collision) |
+## Binary Search
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
