@@ -1,15 +1,11 @@
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        //better solution
+        //optimal solution
         int n=nums.size();
-        vector<int>hash(n+1, 0);
-        for(int i=0;i<n;i++){
-            hash[nums[i]]=1;
-        }
-        for(int i=0;i<n+1;i++){
-            if(hash[i]!=1) return i;
-        }
-        return -1;
+        long long sum=(n*(n+1))/2;
+        long long arraySum=accumulate(nums.begin(),nums.end(),0);
+        return (int)sum-arraySum;
+
     }
 };
