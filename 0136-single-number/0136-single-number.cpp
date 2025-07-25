@@ -1,17 +1,15 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        // brute force
+        //better 
         int n=nums.size();
+        map<int,int>hash;
         for(int i=0;i<n;i++){
-            int num=nums[i];
-            int cnt=0;
-            for(int j=0;j<n;j++){
-                if(nums[j]==num) cnt++;
-            }
-            if(cnt==1) return num;
+            hash[nums[i]]++;
+        }
+        for(auto it:hash){
+            if(it.second==1) return it.first;
         }
         return -1;
-
     }
 };
