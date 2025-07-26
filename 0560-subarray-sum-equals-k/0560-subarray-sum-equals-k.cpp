@@ -1,17 +1,20 @@
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
-        //brute
-        int cnt=0;
+        //Optimal
         int n=nums.size();
+        int cnt=0;
+        long long sum=0;
+        map<long long,int>hashMap;
         for(int i=0;i<n;i++){
-            long long sum=0;
-            for(int j=i;j<n;j++){
-                sum+=nums[j];
-                if(sum==k) cnt++;
+            sum+=nums[i];
+            if(sum==k) cnt++;
+            long long rem=sum-k;
+            if(hashMap.find(rem)!=hashMap.end()){
+                cnt+=hashMap[rem];
             }
+            hashMap[sum]++;
         }
         return cnt;
-        
     }
 };
