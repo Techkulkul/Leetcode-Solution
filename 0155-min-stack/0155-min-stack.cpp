@@ -1,52 +1,45 @@
-class MinStack {     //Optimise solution  TC=O(1) SC=O(n)
+class MinStack {
 public:
-    stack<long long>st;
-   long long minVal=INT_MAX;
-    MinStack() {
-        
-    }
-    
-    void push(int val) {
-        long long value=val;
-        if(st.empty()) {
-            st.push(value);
-            minVal=value;
-        }
-        else{
-            if(value>=minVal) st.push(value);
-            else{
-                st.push(2*value-minVal);
-                minVal=value;
-            }
+    stack<long long> st;
+    long long mini = LLONG_MAX;
 
+    MinStack() {}
+
+    void push(int val) {
+        long long val1 = val;
+        if (st.empty()) {
+            st.push(val1);
+            mini = val1;
+        } else {
+            if (val1 >= mini) {
+                st.push(val1);
+            } else {
+                st.push(2 * val1 - mini); // encode
+                mini = val1;
+            }
         }
     }
-    
+
     void pop() {
-        long long topElement=st.top();
+        if (st.empty()) return;
+
+        long long val = st.top();
         st.pop();
-        if(topElement<minVal) minVal=2*minVal-topElement; 
-        // if(st.empty()) minVal=INT_MAX;
-    }
-    
-    int top() {
-        if(st.empty()) return -1;
-        else {
-            if(st.top()<minVal) return minVal;
-            else return st.top();
+
+        if (val < mini) {
+            mini = 2 * mini - val; // decode
         }
     }
-    
+
+    int top() {
+        if (st.empty()) return -1;
+
+        long long val = st.top();
+        if (val < mini) return (int)mini; // encoded value
+        return (int)val;
+    }
+
     int getMin() {
-        return minVal;
+        return (int)mini;
     }
 };
-
-/**
- * Your MinStack object will be instantiated and called as such:
- * MinStack* obj = new MinStack();
- * obj->push(val);
- * obj->pop();
- * int param_3 = obj->top();
- * int param_4 = obj->getMin();
- */
