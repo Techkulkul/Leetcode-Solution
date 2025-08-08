@@ -1,27 +1,23 @@
 class Solution {
 public:
-    void calLeftMax(vector<int>&leftMax,vector<int>height){
-        leftMax[0]=0;
-        for(int i=1;i<height.size();i++){
-            leftMax[i]=max(leftMax[i-1],height[i-1]);
-        }
-    }
-    void calRightMax(vector<int>&rightMax,vector<int>height){
-        rightMax[height.size()-1]=0;
-        for(int i=height.size()-2;i>=0;i--){
-            rightMax[i]=max(rightMax[i+1],height[i+1]);
-        }
-    }
     int trap(vector<int>& height) {
-        int total=0;
-        vector<int>leftMax(height.size(),0);
-        vector<int>rightMax(height.size(),0);
-        calLeftMax(leftMax,height);
-        calRightMax(rightMax,height);
-        for(int i=0;i<height.size();i++){
-            if(height[i]<min(leftMax[i],rightMax[i])) total+=min(leftMax[i],rightMax[i])-height[i];
+        int n=height.size();
+        unordered_map<int,int>hash;
+        int rightMax=-1;
+        for(int i=n-1;i>=0;i--){
+            hash[i]=rightMax;
+            rightMax=max(rightMax,height[i]);
         }
-        return total;
+
+        long long ans=0;
+        int leftMax=-1;
+        for(int i=0;i<n;i++){
+            if(height[i]<leftMax && height[i]<hash[i]) ans+=min(leftMax,hash[i])-height[i];
+            leftMax=max(leftMax,height[i]);
+        }
+        
+        return ans;
+
         
     }
 };
