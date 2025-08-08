@@ -1,24 +1,25 @@
 class Solution {
 public:
     int trap(vector<int>& height) {
-        
-        int n=height.size();
-        unordered_map<int,int>hash;
-        int rightMax=-1;
-        for(int i=n-1;i>=0;i--){
-            hash[i]=rightMax;
-            rightMax=max(rightMax,height[i]);
+        int leftMax=0,rightMax=0,total=0;
+        int left=0,right=height.size()-1;
+        while(left<right){
+            if(height[left]<height[right]){
+                if(leftMax>height[left]){
+                    total+=leftMax-height[left];
+                }
+                leftMax=max(leftMax,height[left]);
+                left++;
+            }
+            else{
+                if(rightMax>height[right]){
+                    total+=rightMax-height[right];
+                }
+                rightMax=max(rightMax,height[right]);
+                right--;
+            }
         }
-
-        long long ans=0;
-        int leftMax=-1;
-        for(int i=0;i<n;i++){
-            if(height[i]<leftMax && height[i]<hash[i]) ans+=min(leftMax,hash[i])-height[i];
-            leftMax=max(leftMax,height[i]);
-        }
-        
-        return ans;
-
+        return total;
         
     }
 };
