@@ -1,30 +1,29 @@
 class Solution {
 public:
     string removeKdigits(string num, int k) {
-        list<char>ls;
-        for(int i=0;i<num.size();i++){
-            while(!ls.empty() && k>0 && (num[i]-'0') <(ls.back()-'0')){
-                ls.pop_back();
+        //optimal
+        int n=num.size();
+        if(k==n) return "0";
+        list<char>st;
+        string ans;
+        for(int i=0;i<n;i++){
+            while(!st.empty() && k>0 && st.back()>num[i] ){
+                st.pop_back();
                 k--;
             }
-            ls.push_back(num[i]);
+            st.push_back(num[i]);
         }
-        while(k!=0){
-            ls.pop_back();
+        while(!st.empty()&& k>0){
+            st.pop_back();
             k--;
         }
-        if(ls.empty()) return "0";
-        string ans;
-        list<char>::iterator it=ls.begin();
-        while(it!=ls.end()){
-            if(*it=='0' && ans.empty()) it++;
-            else{
-                ans+=*it;
-                it++;
-            }
-        }
-        if(ans.empty()) return "0";
+        if(st.empty()) return "0";
+
+        while(!st.empty() && st.front()=='0') st.pop_front();
+        if(st.empty()) return "0";
+
+        for(auto i :st) ans+=i; 
         return ans;
-        
+
     }
 };
