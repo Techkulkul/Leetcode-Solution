@@ -1,9 +1,10 @@
 class StockSpanner {
 public:
     stack<pair<int,int>>st;
-    int  i;
+    int  i; //index
     StockSpanner() {
         i=0;
+        
     }
     
     int next(int price) {
