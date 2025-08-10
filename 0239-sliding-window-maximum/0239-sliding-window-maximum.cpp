@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        //optimal
         list<int>ls;
         vector<int>ans;
         for(int i=0;i<nums.size();i++){
