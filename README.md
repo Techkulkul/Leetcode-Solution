@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [1256-rank-transform-of-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Stack
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0326-power-of-three) |
 | [1013-fibonacci-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1013-fibonacci-number) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2032-largest-odd-number-in-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2050-count-good-numbers) |
@@ -162,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1046-max-consecutive-ones-iii) |
 | [1256-rank-transform-of-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [2227-sum-of-subarray-ranges](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2227-sum-of-subarray-ranges) |
 | [2358-number-of-ways-to-split-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2358-number-of-ways-to-split-array) |
@@ -258,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2358-number-of-ways-to-split-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2358-number-of-ways-to-split-array) |
 ## Design
@@ -301,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0966-binary-subarrays-with-sum](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1370-count-number-of-nice-subarrays) |
 ## Monotonic Queue
 |  |
 | ------- |
