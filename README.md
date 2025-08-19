@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0496-next-greater-element-i) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0148-sort-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
 |  |
 | ------- |
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0455-assign-cookies) |
 | [1256-rank-transform-of-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1256-rank-transform-of-an-array) |
@@ -160,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0260-single-number-iii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0283-move-zeroes) |
+| [0347-top-k-frequent-elements](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0496-next-greater-element-i) |
@@ -180,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0451-sort-characters-by-frequency) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1034-subarrays-with-k-different-integers) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -234,10 +239,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0239-sliding-window-maximum) |
+| [0347-top-k-frequent-elements](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0451-sort-characters-by-frequency) |
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0451-sort-characters-by-frequency) |
 ## Backtracking
 |  |
@@ -335,4 +342,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
