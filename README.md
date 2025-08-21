@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [2094-remove-stones-to-minimize-the-total](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2227-sum-of-subarray-ranges](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2227-sum-of-subarray-ranges) |
 | [2358-number-of-ways-to-split-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2358-number-of-ways-to-split-array) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0455-assign-cookies) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [2032-largest-odd-number-in-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2032-largest-odd-number-in-string) |
+| [2094-remove-stones-to-minimize-the-total](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2094-remove-stones-to-minimize-the-total) |
 ## Trie
 |  |
 | ------- |
@@ -250,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0451-sort-characters-by-frequency) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [2094-remove-stones-to-minimize-the-total](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2094-remove-stones-to-minimize-the-total) |
 ## Bucket Sort
 |  |
 | ------- |
