@@ -1,6 +1,7 @@
 class Solution {
 public:
     string reorganizeString(string s) {
+        //optimal
         vector<int>hash(26,0);
         priority_queue<pair<int,char>>maxheap;
         string ans="";
