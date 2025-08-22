@@ -30,7 +30,7 @@ public:
             }
             if(topCol+1<nums[topRow].size()){
                 maxi=max(maxi,nums[topRow][topCol+1]);
-                 minHeap.push({nums[topRow][topCol+1],{topRow,topCol+1}});
+                minHeap.push({nums[topRow][topCol+1],{topRow,topCol+1}});
             }
             else{
                 break;
