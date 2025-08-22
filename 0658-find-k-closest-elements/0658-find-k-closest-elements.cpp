@@ -8,6 +8,7 @@ class Comparator{
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
+        //optimal soltion can be posssible
         vector<int>ans;
         priority_queue<pair<int,int>,vector<pair<int,int>>,Comparator>minheap;
         for(auto i:arr){
