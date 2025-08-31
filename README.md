@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0051-n-queens) |
+| [0055-jump-game](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0055-jump-game) |
 | [0078-subsets](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0084-largest-rectangle-in-histogram) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0055-jump-game) |
 | [0131-palindrome-partitioning](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0131-palindrome-partitioning) |
 | [0678-valid-parenthesis-string](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0678-valid-parenthesis-string) |
 | [0943-sum-of-subarray-minimums](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0943-sum-of-subarray-minimums) |
@@ -247,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0455-assign-cookies) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
