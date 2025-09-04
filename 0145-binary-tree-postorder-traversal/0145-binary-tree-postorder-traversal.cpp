@@ -18,6 +18,7 @@ public:
         ans.push_back(root->val);
     }
     vector<int> postorderTraversal(TreeNode* root) {
+        // recursive solution
         vector<int>ans;
         postorder(root,ans);
         return ans;
