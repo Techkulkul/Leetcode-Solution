@@ -1,29 +1,21 @@
 class Solution {
 public:
-    void patternMapping(string& s)
-    {
-        char map[300];
+    void pattern(string& s){
+        int hash[256]={0};
         char start='a';
-        for(auto it:s)
-        {
-            if(map[it]==0)
-            {
-                map[it]=start;
-                start++;
-            }
+        for(auto el:s){
+            if(hash[el]==0){
+                hash[el]=start;
+                start++;            
+                }
         }
-        for(int i=0;i<s.length();i++)
-        {
-            s[i]=map[s[i]];
+        for(int i=0;i<s.length();i++){
+            s[i]=hash[s[i]];
         }
-       
     }
     bool isIsomorphic(string s, string t) {
-        patternMapping(s);
-        patternMapping(t);
-        if(s.compare(t)==0) return true;
-        return false;
-        
-        
+        pattern(s);
+        pattern(t);
+        return s.compare(t)==0?true:false;
     }
 };
