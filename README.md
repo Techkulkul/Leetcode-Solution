@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0141-linked-list-cycle) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0148-sort-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0242-valid-anagram) |
@@ -172,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0055-jump-game) |
 | [0078-subsets](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0078-subsets) |
@@ -224,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0008-string-to-integer-atoi) |
 | [0014-longest-common-prefix](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0125-valid-palindrome) |
