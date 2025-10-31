@@ -5,7 +5,9 @@ public:
         for(int i=0;i<strs[0].length();i++){
             char c=strs[0][i];
             for(int j=0;j<strs.size();j++){
+                if(i>strs[j].length()) return ans;
                 if(strs[j][i]!=c) return ans;
+                
             }
             ans.push_back(c);
         }
