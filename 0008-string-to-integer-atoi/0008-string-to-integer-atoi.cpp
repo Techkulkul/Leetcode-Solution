@@ -1,32 +1,22 @@
 class Solution {
 public:
-    void trim(string &s)
-    {
-        while(s[0]==' ')
-        {
-            s.erase(s.begin());
-        }
-    }
     int myAtoi(string s) {
-        if(s.length()==0) return 0;
-        trim(s);
-        int sign=s[0]=='-'?-1:1;
-        if(s[0]=='+' || s[0]=='-')
-        {
-            s=s.substr(1);
+        int num=0,sign=1;
+        int i=0;
+        while(i<s.length()&& s[i]==' '){
+            i++;
         }
-        long long num=0;
-        for(int i=0;i<s.length();i++)
-        {
-            if(!isdigit(s[i])) break;
-            else 
-            {
-                num=num*10+s[i]-'0';
-                if(num*sign<INT_MIN) return INT_MIN;
-                if(num*sign>INT_MAX) return INT_MAX;
+        if(i<s.length()&& (s[i]=='+'|| s[i]=='-')){
+            sign=s[i]=='+'?1:-1;
+            i++;
+        }
+        while(i<s.length()&& isdigit(s[i])){
+            if(num>INT_MAX/10 || (num==INT_MAX/10 && (s[i]-'0')>7)){
+                return sign==1?INT_MAX:INT_MIN;
             }
+            num=num*10+(s[i]-'0');
+            i++;
         }
         return num*sign;
-
     }
 };
