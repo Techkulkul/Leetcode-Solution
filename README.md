@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0326-power-of-three) |
+| [0795-k-th-symbol-in-grammar](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0795-k-th-symbol-in-grammar) |
 | [1013-fibonacci-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2050-count-good-numbers) |
 ## Two Pointers
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0326-power-of-three) |
+| [0795-k-th-symbol-in-grammar](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0795-k-th-symbol-in-grammar) |
 | [1013-fibonacci-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Techkulkul/Leetcode-Solution/tree/master/1370-count-number-of-nice-subarrays) |
@@ -323,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0268-missing-number) |
+| [0795-k-th-symbol-in-grammar](https://github.com/Techkulkul/Leetcode-Solution/tree/master/0795-k-th-symbol-in-grammar) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Techkulkul/Leetcode-Solution/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Matrix
 |  |
