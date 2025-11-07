@@ -1,31 +1,29 @@
 class MinStack {
 public:
-    map<int,int>hash;
-    stack<int>st;
+    stack<pair<int,int>>st;
     MinStack() {
         
     }
     
     void push(int val) {
-        st.push(val);
-        hash[val]++;
+        int mini;
+        if(st.empty()) mini=val;
+        else{
+            mini=min(val,st.top().second);
+        }
+        st.push({val,mini});
     }
     
     void pop() {
-        int val=st.top();
         st.pop();
-        hash[val]--;
     }
     
     int top() {
-        return st.top();
+        return st.top().first;
     }
     
     int getMin() {
-        for(auto it:hash){
-            if(it.second!=0) return it.first;
-        }
-        return 1;
+        return (int)st.top().second;
     }
 };
 
